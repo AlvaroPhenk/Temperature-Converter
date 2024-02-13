@@ -108,6 +108,10 @@ button{
     color: white;
 }
 
+#button{
+    background-color: rgb(50, 50, 50);
+}
+
 h4{
     text-align: center;
     padding-top: 40px;
