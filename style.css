@@ -115,15 +115,16 @@ button{
 h4{
     text-align: center;
     padding-top: 40px;
+    padding-bottom: 15px;
 }
 
-img{
-    display: none;
-    background-color: rgb(116, 116, 116);
+p{
+    max-width: 450px;
+    background: rgb(85, 85, 85);
+    border-radius: 8px;
+    box-shadow: 5px 10px rgb(116, 116, 116);
+    text-align: center;
+    font-family: Arial;
+    color: white;
     padding: 20px;
-    width: 20%;
-}
-
-.formula:hover img{
-    display: block;
 }
