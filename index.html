@@ -21,13 +21,13 @@
             <!-- Note: icons dapat dari Word-->
         </div>
         <div class="celcius">
-            <input type="number" placeholder="Celcius">
+            <input type="number" id="numberInput1" placeholder="Celcius">
             <span class="icon2">
                 ℃
             </span>
         </div>
         <div class="fahrenheit">
-            <input type="number" placeholder="Fahrenheit">
+            <input type="number" id="numberInput2" placeholder="Fahrenheit">
             <span class="icon2">
                 ℉
             </span>
@@ -35,8 +35,8 @@
         </div>
         <div class="button">
             <button id="button"> </button>
-            <button>Clear</button>
-            <button>Reverse</button>
+            <button onclick="clearText" id="clearedText">Clear</button>
+            <button onclick="reverseText" id="reversedText">Reverse</button>
             <button id="button"> </button>
         </div>
     </div>
